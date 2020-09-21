@@ -1,7 +1,8 @@
 <template>
   <div class="container">
-    <div>
-      <h1 class="title">nuxt-denemeler</h1>
+    <h1 class="title">Ürünler</h1>
+    <div class="button-container">
+      <n-link to="/products" class="button--green">Ürünler</n-link>
     </div>
   </div>
 </template>
@@ -10,13 +11,4 @@
 export default {}
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-</style>
+<style></style>
